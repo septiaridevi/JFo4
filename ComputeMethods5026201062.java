@@ -9,8 +9,8 @@ import java.util.Random;
 		}
 		
 		public int roll(){
-			Random random = new Random();
-			return((random.nextInt(6)+1)+(random.nextInt(6)+1));
+			Random dice = new Random();
+			return((dice.nextInt(6)+1)+(dice.nextInt(6)+1));
 		}
 }
 		
